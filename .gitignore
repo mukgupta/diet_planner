@@ -1,0 +1,16 @@
+*.pdf
+*.html
+*.pyc
+*.json
+
+
+
+.terraform
+terraform.tfstate
+*.tfstate*
+terraform.tfvars
+
+terraform/lambda/*.zip
+terraform/lambda/layers/*
+
+.DS_Store

@@ -1,0 +1,14 @@
+id,name,min_distance_between_servings,max_servings_per_cycle,min_servings_per_cycle
+1,rice,3,2,1
+2,cheela,1,2,1
+3,sooji,2,3,0
+4,parantha,2,3,0
+5,chole_rajma,2,2,1
+6,aloo,2,2,0
+7,paneer,1,5,2
+8,daal,1,5,3
+9,chana,1,2,1
+10,sambhar,2,2,0
+11,greens,0,5,1
+12,soya,2,2,0
+13,mushroom,2,1,0
