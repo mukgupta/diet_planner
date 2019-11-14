@@ -3,6 +3,15 @@
 <meta charset="utf-8">
 <head>
 <style type="text/css">
+
+  @media print {
+    body {
+      zoom: 65%;
+    }
+    @page {
+      size: landscape;
+    }
+  }
   table {
   font-family: sans-serif;
   width: 100%;
@@ -152,12 +161,12 @@ table tbody tr td.hour span {
       <td>{{ item['dinner'] }}</td>
     </tr>
     <tr>
-      <td>उबला हुआ अंडा - 4</td>
+      <td>उबला हुआ अंडा - 2</td>
       <td>सलाद</td>
       <td></td>
     </tr>
     <tr>
-      <td>गर्म दूध - 2 पैकेट</td>
+      <td>गर्म दूध - 1 पैकेट</td>
       <td>रोटी - 3</td>
       <td></td>
     </tr>

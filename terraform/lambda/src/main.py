@@ -421,7 +421,6 @@ def process(last_week_data=None, mode="1", handle_json=None, handle_html=None):
 
     inventory = set(get_inventory_fron_schedule(schedule))
     if mode == "1":
-        print(inventory)
         print_schedule_cli(schedule)
     else:
         html = render_template(schedule_name, inventory, start_date, end_date)
@@ -478,7 +477,8 @@ if __name__== "__main__":
         mode =  sys.argv[1]
 
     def handle_json(json):
-        print(json)
+        pass
+        # print(json)
 
     def handle_html(html):
         print(html)
