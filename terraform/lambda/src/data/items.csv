@@ -25,14 +25,14 @@ id,enabled,name,type,constraint_ingredients,health_ingredients,inventory
 26,y,कदाई पनीर,lunch:dinner,paneer,protein,paneer
 27,n,जीरा आलू,lunch,aloo,carbs,potato
 28,y,छोले-रोटी,lunch:dinner,chana:chole_rajma,protein,chole
-29,y,राजमा-रोटी,lunch:dinner,rajma:chole_rajma,protein,rajma
+29,n,राजमा-रोटी,lunch:dinner,rajma:chole_rajma,protein,rajma
 30,y,मसूर की दाल,lunch:dinner,daal,protein,masoor_daal
 31,y,अरहर की दाल,lunch:dinner,daal,protein,arhar_daal
 32,y,चना दाल,lunch:dinner,daal,protein,chana_daal
 33,y,छोले की सलाद,lunch,chana:salad:chole_rajma,protein,chole
 34,n,राजमा की सलाद,lunch,rajma:salad:chole_rajma,protein,rajma
 35,y,अप्पम,breakfast,,,sooji
-36,y,पुरी-आलू,breakfast:lunch,aloo,carbs,potato
+36,n,पुरी-आलू,breakfast:lunch,aloo,carbs,potato
 37,y,कुल्चा-चना,breakfast,chana,protein,kulcha
 38,y,उड़द दाल,lunch:dinner,daal,protein,urad_daal
 39,y,आलू-सोया,lunch:dinner,aloo:soya,protein,potato:soya
@@ -48,3 +48,4 @@ id,enabled,name,type,constraint_ingredients,health_ingredients,inventory
 49,y,मशरूम दो प्याजा,lunch:dinner,mushroom,,onion:mushroom
 50,y,मसाला डोसा-सांभर,dinner,rice:sambhar,,dosa_batter:pumpkin:carrot:onion:tomato:brinjal:ghiya:spinach
 51,y,मूली का पराठा-आलू मटर,lunch:dinner,aloo:parantha,,potato:pea:radish
+52,y,घिया-कोफ्ता,lunch:dinner,,,ghiya:besan
