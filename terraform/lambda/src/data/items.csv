@@ -49,3 +49,4 @@ id,enabled,name,type,constraint_ingredients,health_ingredients,inventory
 50,y,मसाला डोसा-सांभर,dinner,rice:sambhar,,dosa_batter:pumpkin:carrot:onion:tomato:brinjal:ghiya:spinach
 51,y,मूली का पराठा-आलू मटर,lunch:dinner,aloo:parantha,,potato:pea:radish
 52,y,घिया-कोफ्ता,lunch:dinner,,,ghiya:besan
+53,y,पीनट बटर-टोस्ट,breakfast,,protein,banana:bread:peanut_butter
