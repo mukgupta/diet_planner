@@ -301,7 +301,8 @@ def generate_schedule(num_days, num_simulations=1, last_week_schedule=None):
     for contraint, dishes in contraint_dict.items():
         max_servings_per_cycle = int(ingredients_map.get(contraint, {}).get('max_servings_per_cycle', 100000))
         min_servings_per_cycle = int(ingredients_map.get(contraint, {}).get('min_servings_per_cycle', -1))
-        model.Add(min_servings_per_cycle <= contraint_servings_cycle[contraint] <= max_servings_per_cycle)
+        model.Add(min_servings_per_cycle <= contraint_servings_cycle[contraint] )
+        model.Add(contraint_servings_cycle[contraint] <= max_servings_per_cycle)
 
     # Item with similar constraints shouldn't be scheduled for two consecutive days
     for d in all_days:

@@ -161,12 +161,12 @@ table tbody tr td.hour span {
       <td>{{ item['dinner'] }}</td>
     </tr>
     <tr>
-      <td>उबला हुआ अंडा - 2</td>
+      <td></td>
       <td>सलाद</td>
       <td></td>
     </tr>
     <tr>
-      <td>गर्म दूध - 1 पैकेट</td>
+      <td></td>
       <td>रोटी - 3</td>
       <td></td>
     </tr>
